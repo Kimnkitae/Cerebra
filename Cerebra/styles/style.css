@@ -1,0 +1,98 @@
+@import url(main.css);
+
+/* HEADER */
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    background-color: #EF9FA0;
+    padding: 10px 10px;
+    align-items: center;
+}
+
+.header__right {
+    display: flex;
+    gap: 150px;
+    align-items: center;
+}
+
+.header__menu {
+    display: flex;
+    gap: 50px;
+    font-size: 32px;
+}
+
+.header__menu-link {
+    color: #000000;
+    font-family: "AnonymousPro-Regular";
+}
+
+.header__buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.header__buttons-button {
+    border: none;
+    font-size: 24px;
+    font-family: "AnonymousPro-Bold";
+    color: white;
+    background-color: #000000;
+    padding: 24px 5px;
+    border-radius: 30px;
+}
+
+/* NEW-YEAR-DISCOUNT */
+
+.new-year-discount {
+    display: flex;
+    justify-content: center;
+    background-color: #006BF6;
+}
+
+.new-year-discount__link {
+    color: white;
+    padding: 43px 0px;
+    font-size: 30px;
+    font-family: "AnonymousPro-Regular";
+}
+
+/* CONTAINER */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ABOUT US */
+
+
+/* CONTAINER2 */
+
+.container2 {
+    max-width: 961px;
+    margin: 0 auto;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #EF9FA0;
+    padding-top: 88px;
+    padding-bottom: 65px;
+}
+
+.footer__top {
+    display: flex;
+    gap: 46px;
+    margin: 0 25px;
+    padding-bottom: 109px;
+}
+
+
+.footer__bottom-text {
+    font-size: 14px;
+    margin-left: 5px;
+    padding-top: 5px;
+}
+
