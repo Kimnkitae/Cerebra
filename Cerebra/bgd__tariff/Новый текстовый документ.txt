@@ -1,0 +1,63 @@
+.tariff__bgd1 {
+    z-index: 0;
+    position: absolute;
+    top: 1270px;
+    left: 180px;
+}
+
+.tariff__bgd2 {
+    z-index: 0;
+    position: absolute;
+    top: 1510px;
+    left: 190px;
+}
+
+.tariff__bgd3 {
+    z-index: 0;
+    position: absolute;
+    top: 1286px;
+    left: 380px;
+}
+
+.tariff__bgd4 {
+    z-index: 0;
+    position: absolute;
+    top: 1320px;
+    left: 500px;
+}
+
+.tariff__bgd5 {
+    z-index: 0;
+    position: absolute;
+    top: 1300px;
+    left: 590px;
+}
+
+.tariff__bgd6 {
+    z-index: 0;
+    position: absolute;
+    top: 1500px;
+    left: 690px;
+}
+
+
+<div class="tariff__background">
+                <div class="tariff__bgd1">
+                    <img src="/img/tariff__bgd.svg" class="tariff__bgd tariff__bgd1">
+                </div>
+                <div class="tariff__bgd2">
+                    <img src="/img/tariff__bgd.svg" class="tariff__bgd tariff__bgd2">
+                </div>
+                <div class="tariff__bgd3">
+                    <img src="/img/tariff__bgd.svg" class="tariff__bgd tariff__bgd3">
+                </div>
+                <div class="tariff__bgd4">
+                    <img src="/img/tariff__bgd.svg" class="tariff__bgd tariff__bgd4">
+                </div>
+                <div class="tariff__bgd5">
+                    <img src="/img/tariff__bgd.svg" class="tariff__bgd tariff__bgd5">
+                </div>
+                <div class="tariff__bgd6">
+                    <img src="/img/tariff__bgd.svg" class="tariff__bgd tariff__bgd6">
+                </div>
+            </div>
