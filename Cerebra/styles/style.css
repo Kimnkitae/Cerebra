@@ -99,7 +99,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 236px;
+    padding-top: 100px;
 }
 
 .platform-top__icon1 {
@@ -327,35 +327,14 @@
     flex-direction: column;
     align-items: center;
     padding-bottom: 116px;
+    background-image: url(/img/schedule-bgd.svg);
 }
 
-.schedule__icon {
-    position: relative;
-}
-
-.schedule__icon1 {
-    top: 120px;
-    left: 50px;
-}
-
-.schedule__icon2 {
-   right: 100px;
-   top: 400px;
-}
-
-.schedule__icon3 {
-    left: 820px;
-    top: 100px;
-}
-
-.schedule__icon4 {
-    left: 700px;
-    top: 700px;
-}
 
 .schedule__h1-h1 {
     font-size: 41.5px;
     font-family: "AnonymousPro-Regular";
+    padding-top: 100px;
 }
 
 .schedule__menu {
@@ -382,22 +361,27 @@
 
 .reviews {
     background-color: #F0F8FF;
+    
 }
 
 .reviews__inner {
     padding-top: 101px;
+    background-image: url(/img/reviews__bgd.svg);
 }
 
 .reviews__h1 {
     font-size: 50px;
+    padding-bottom: 50px;
+    margin-left: 80px;
 }
 
 .reviews__menu {
     padding-left: 76px;
     padding-right: 61px;
     padding-bottom: 82px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit);
+    display: flex;
+    gap: 10px;
+
 }
 
 .reviews__menu-item {
@@ -417,8 +401,12 @@
 .reviews__menu-profile {
     padding-top: 8px;
     padding-left: 11px;
-    gap: 17px;
+    gap: 10px;
     align-items: center;
+}
+
+.reviews__menu-p {
+    padding: 10px;
 }
 
 .reviews__menu-name--name {
@@ -457,7 +445,30 @@
 
 .reviews6 {
     width: 199px;
-    height: 586px;
+    height: 540px;
+}
+
+.reviews__container1 {
+    display: flex;
+    gap: 10px;
+}
+
+
+.reviews__container2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.reviews__container3 {
+    display: flex;
+    gap: 10px;
+}
+
+.reviews__container4 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .reviews__button-link {
@@ -484,6 +495,7 @@
     gap: 109px;
     flex-direction: column;
     align-items: center;
+    background-image: url(/img/tariff-bgd.svg);
 }
 
 .tariff__h1-h1 {
@@ -834,6 +846,7 @@
 .questions__menu {
     display: flex;
     flex-direction: column;
+    gap: 5px;
 }
 
 .faq-question {
@@ -841,7 +854,7 @@
     height: 60px;
     text-align: start;
     border: none;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 10px 10px;
     background: linear-gradient(to right, #0E0E0E, #232323);
     color: #FFFFFF;
     font-size: 20px;
@@ -959,4 +972,91 @@
 
 .footer__menu--big {
     font-size: 16px;
+}
+
+.header__menu-link:hover {
+    border-bottom: 2px solid #000000;
+}
+
+.header__buttons-button:hover  {
+    background-color: rgb(27, 27, 27);
+}
+
+.teachers__object:hover {
+    background-color: rgb(49, 49, 49);
+}
+
+.new-year-discount:hover {
+    background-color: #014fb4;
+}
+
+.about-us__button-link:hover, .platform-top__button:hover, .reviews__button-link:hover, .faq-question:hover, .footer__button:hover, .about-us__button-link:hover {
+    background: linear-gradient(to right, rgb(27, 27, 27), rgb(27, 27, 27));
+}
+
+.platform-top__h1:hover, .plaform__menu-item:hover {
+    background-color: #d18f90;
+}
+
+.tarrif__button:hover {
+    background-color: rgb(194, 0, 0);
+}
+
+.schedule__menu-button:hover {
+    background-color: rgb(196, 196, 196);
+}
+
+.form-application__submit-input:hover {
+    background-color: rgb(194, 0, 0);
+}
+
+
+.new-year-discount__link {
+    animation-name: ad;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ad {
+    25% {
+        margin-right: 500px;
+    }
+
+    60% {
+        margin-left: 500px;
+    }
+}
+
+.footer__useful-link:hover, .footer__email:hover {
+    color: rgb(94, 94, 94);
+}
+
+.about-us__banner-img {
+    animation-name: banner;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+.about-us__button {
+    animation-name: banner;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes banner {
+    0% {
+        opacity: 0;
+        transform: translateY(50px) scale(0.95);
+    }
+
+    70% {
+        opacity: 0.8;
+        transform: translateY(-10px) scale(1.02); /* Лёгкий "отскок" */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      
+    }
 }
