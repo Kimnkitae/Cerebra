@@ -338,6 +338,19 @@
     color: #FFFFFF;
 }
 
+.schedule__sheets {
+    display: flex;
+    gap: 300px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;           
+    width: 900px;
+}
+
+.schedule__sheets-item {
+    flex: 10% 0 50%;
+    scroll-snap-align: center;
+}
+
 /* REVIEWS */
 
 .reviews {
@@ -784,18 +797,19 @@
     padding: 5px 5px 5px 8px;
     text-align: start;
     border: none;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 2px;
     background: linear-gradient(to right, #0E0E0E, #232323);
     font-size: 20px;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .faq-answer {
     width: 900px;
     height: 161px;
-    padding: 17px 0 30 38px;
+    padding: 30px;
     margin-bottom: 12px;
-    background-color: #BFBFBF;
+    background-color: #cccccc;
     border-radius: 0px 0px 10px 10px;
     font-size: 20px;
 }
