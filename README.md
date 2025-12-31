@@ -15,6 +15,7 @@ That's it! You don't need to install anything.
 - No server technologies — pure static
 
 ## Author
+Instagram: mainworkkitae
 Telegram: @max7c 
 Email address: mainworkkitae@gmail.com
 
