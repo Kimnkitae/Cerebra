@@ -14,4 +14,6 @@ That's it! You don't need to install anything.
 - Everything is assembled and optimized (HTML, CSS, images)
 - No server technologies — pure static
 
+# Author
 
+Email address: mainworkkimn@gmail.com
